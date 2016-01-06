@@ -5,6 +5,18 @@ Works now for HTTP calls (e.g. fetch()). Websocket support is not implemented ye
 
 More about SeaCat at [TeskaLabs.com](http://teskalabs.com/).
 
+# Example of use
+
+It basically allows you to made SeaCat calls directly from React Native JS environment:
+
+```javascript
+  	fetch('https://host.seacat/')
+  		.then((response) => response.text())
+		.then((responseText) => {
+			console.log(responseText);
+	});
+```
+
 # Implementation
 
 First, integrate SeaCat SDK with React Native iOS app in a normal way.
