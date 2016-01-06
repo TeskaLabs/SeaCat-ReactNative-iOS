@@ -10,7 +10,7 @@ More about SeaCat at [TeskaLabs.com](http://teskalabs.com/).
 It basically allows you to made SeaCat calls directly from React Native JS environment:
 
 ```javascript
-  	fetch('https://host.seacat/')
+  	fetch('https://host.seacat/endpoint')
   		.then((response) => response.text())
 		.then((responseText) => {
 			console.log(responseText);
