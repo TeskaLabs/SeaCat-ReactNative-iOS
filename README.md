@@ -7,7 +7,10 @@ More about SeaCat at [TeskaLabs.com](http://teskalabs.com/).
 
 # Implementation
 
-Simply drag-n-drop SeaCatReactNativeBridge folder into your iOS app project in XCode.
+First, integrate SeaCat SDK with React Native iOS app in a normal way.
+It is explained e.g. here: http://www.teskalabs.com/blog/trial_for_ios_mac_osx (seek for 'Installation of SeaCat client' chapter).
+
+Then, simply drag-n-drop SeaCatReactNativeBridge folder into your iOS app project in XCode.
 
 ![alt tag](https://raw.githubusercontent.com/TeskaLabs/SeaCat-ReactNative-iOS/master/docs/step01.png)
 
