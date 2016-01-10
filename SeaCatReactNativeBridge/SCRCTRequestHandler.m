@@ -10,7 +10,7 @@
 // Keep this in sync with https://github.com/facebook/react-native/blob/master/Libraries/Network/RCTHTTPRequestHandler.m
 
 #import "SCRCTRequestHandler.h"
-#import "SeaCatClient/SeaCat.h"
+#import <SeaCatClient/SeaCat.h>
 
 @interface SCRCTRequestHandler () <NSURLSessionDataDelegate>
 
