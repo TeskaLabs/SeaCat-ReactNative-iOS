@@ -67,9 +67,7 @@ RCT_EXPORT_MODULE()
     
     NSOperationQueue *callbackQueue = [NSOperationQueue new];
     callbackQueue.maxConcurrentOperationCount = 1;
-    NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
-    NSArray * pc = [NSArray arrayWithObject:[SeaCatClient.class getURLProtocolClass]];
-    [configuration setProtocolClasses:pc];
+    NSURLSessionConfiguration *configuration = [SeaCatClient getNSURLSessionConfiguration];
     _session = [NSURLSession sessionWithConfiguration:configuration
                                              delegate:self
                                         delegateQueue:callbackQueue];
